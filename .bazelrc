@@ -54,6 +54,7 @@ build:android --define=xnn_enable_arm_i8mm=false
 build:android_armv7 --config=android
 build:android_armv7 --cpu=armeabi-v7a
 build:android_armv7 --fat_apk_cpu=armeabi-v7a
+build:android_armv7 --copt=-mfpu=neon
 
 build:android_arm64 --config=android
 build:android_arm64 --cpu=arm64-v8a
